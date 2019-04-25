@@ -1,1 +1,0 @@
-# skonovalenko.github.io

@@ -1,0 +1,22 @@
+/*
+навигация 280*560
+шапка 60*1340
+*/
+header {
+  width: 100vw-2px;
+  height: 60px;
+  background: rgb(243,156,019);
+}
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(243,156,019, 0.8);
+  width: 280px;
+  height: 100vh;
+}
+section {
+  background: #344;
+  height: 100vh;
+  padding-left: 284px;
+}

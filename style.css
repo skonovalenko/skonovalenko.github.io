@@ -1,22 +1,27 @@
-/*
-навигация 280*560
-шапка 60*1340
-*/
+body {
+  overflow: hidden;
+}
 header {
-  width: 100vw-2px;
+  width: 100vw;
   height: 60px;
   background: rgb(243,156,019);
 }
-nav {
+.nav {
   position: fixed;
+  overflow: hidden;
   left: 0;
   top: 0;
+  height: 100%;
   background: rgba(243,156,019, 0.8);
   width: 280px;
-  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 section {
   background: #344;
+  padding-left: 280px;
+  padding-top: 10px;
+  overflow: scroll;
   height: 100vh;
-  padding-left: 284px;
 }

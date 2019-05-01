@@ -6,14 +6,17 @@ body {
   margin: 0;
   width: 100%;
   font-family: 'Noto Serif', serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 .main {
   background-color: white;
-  height: 500px;
+  height: 10000px;;
   width: 1080px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 5%
+  margin-top: 5%;
+  box-shadow: 0 0 35px 15px #6b90b2; 
 }
 header {
   font-family: 'Playfair Display', serif;
@@ -32,14 +35,52 @@ a {
 }
 li {
   display: inline;
-  margin-right: -4px;
-  padding-left: 25px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 nav {
-margin-top: -10px;
-border-top: 1px solid black;
-border-bottom: 1px solid black;
+  margin-top: -10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  padding-left: auto;
+  padding-right: auto;
+  height: 70px;
 }
+a:hover {
+  font-weight: 900;
+  color: #ffbb10;
+}
+section {
+  height: auto;
+  width: : 1080px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+#img {
+  border-left: 3px solid #ffbb10;
+  padding-left: 50px;
+}
+#o {
+  font-size: 30px;
+  color: #ffbb10;
+}
+#imagetext {
+  margin-top: 30px;
+}
+.down {
+  color: #ffbb10;
+  font-size: 30px;
+  text-align: center;
+}
+i {
+  font-family: fontawesome !important;
+}
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+
+
+
 @media screen and (max-width: 1600px) {
     div.for-example {width: 1500px;}
 }

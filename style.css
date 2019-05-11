@@ -95,7 +95,20 @@ section {
     height: 100vh;
     margin-top:0;
 }
-
+    nav {
+    margin-top: -10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    height: 180px;
+    }
+    li {
+      display: block;
+      height: 30px;
+    }
+}
 
 @media screen and (max-width: 1600px) {
     div.for-example {width: 1500px;}

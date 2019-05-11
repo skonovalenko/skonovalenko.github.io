@@ -73,6 +73,28 @@ section {
 }
 
 
+@media screen and (max-width:960px){
+  .main {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-top:0;
+  }
+}
+@media screen and (max-width:768px) {
+  .main {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-top:0;
+}
+@media screen and (max-width:420px) {
+  .main {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin-top:0;
+}
 
 
 @media screen and (max-width: 1600px) {

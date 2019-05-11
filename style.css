@@ -92,7 +92,7 @@ section {
   .main {
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     margin-top:0;
 }
     nav {
@@ -102,7 +102,7 @@ section {
     font-size: 20px;
     padding-left: auto;
     padding-right: auto;
-    height: 180px;
+    height: 200px;
     }
     li {
       display: block;

@@ -88,7 +88,7 @@ section {
     height: 100vh;
     margin-top:0;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:600px) {
   .main {
     background-color: white;
     width: 100vw;
@@ -96,17 +96,19 @@ section {
     margin-top:0;
   }
   nav {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border: none;
     font-size: 20px;
     padding-left: auto;
     padding-right: auto;
-    height: 200px;
+    height: 270px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
   }
   li {
     display: block;
     height: 30px;
-    border-bottom: 1px solid black;
+    margin-top: 10px
   }
 }
 

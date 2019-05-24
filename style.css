@@ -167,23 +167,23 @@ a:hover {
   color: #fff;
 }
  .slide:nth-of-type(1) {
-  background: red url("https://i.ibb.co/8cZwKH4/art-supplies.jpg") fixed center;
+  background: red url("https://i.ibb.co/8cZwKH4/art-supplies.jpg") center;
   background-repeat: no-repeat;
 }
 .slide:nth-of-type(2) {
-  background: orange url("https://i.ibb.co/q1Jws6K/boy-school.jpg") fixed center;
+  background: orange url("https://i.ibb.co/q1Jws6K/boy-school.jpg") center;
   background-repeat: no-repeat;
 }
 .slide:nth-of-type(3) {
-  background: green url("https://i.ibb.co/cYVsyGD/creased-crinkled-crumpled-479444.jpg") fixed center;
+  background: green url("https://i.ibb.co/cYVsyGD/creased-crinkled-crumpled-479444.jpg") center;
   background-repeat: no-repeat;
 }
 .slide:nth-of-type(4) {
-  background: blue url("https://i.ibb.co/qgzJsbc/school-pencils.jpg") fixed center;
+  background: blue url("https://i.ibb.co/qgzJsbc/school-pencils.jpg") center;
   background-repeat: no-repeat;;
 }
 .slide:nth-of-type(5) {
-  background: purple url("https://i.ibb.co/rQh3Bq5/school-denim.jpg") fixed center;
+  background: purple url("https://i.ibb.co/rQh3Bq5/school-denim.jpg") center;
   background-repeat: no-repeat;
 }
 
@@ -223,5 +223,43 @@ a:hover {
     display: block;
     height: 30px;
     margin-top: 10px
+  }
+}
+@media screen and (max-width:510px) {
+i {
+  font-size: 10px;
+  color: black;
+  margin-left: 10px;
+  }
+label {
+font-size: 10px;
+  }
+iframe {
+  border: 2px;
+  }
+fieldset {
+  font-size: 12px;
+  }
+#members_area {
+  font-size: 10px;
+  }
+}
+@media screen and (max-width:355px) {
+i {
+  font-size: 7px;
+  color: black;
+  margin-left: 0px;
+  }
+}
+@media screen and (max-width: 680px) {
+#slides {
+  width: 450px;
+  height: 300px;
+  }
+}
+@media screen and (max-width:500px) {
+  #slides {
+    width: 300px;
+    height: 200px;
   }
 }

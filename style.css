@@ -243,6 +243,12 @@ fieldset {
 #members_area {
   font-size: 10px;
   }
+#article {
+  text-align: center;
+  }
+#img, #img1 {
+  border: none;
+  }
 }
 @media screen and (max-width:355px) {
 i {
